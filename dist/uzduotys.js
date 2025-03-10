@@ -12,7 +12,9 @@ console.log('Amzius:', metai);
 // masyvo elementų pateikimas konsolėje
 // Deklaruojame masyvą su skaičių tipu
 let numbers = [9, 2, 3, 4, 9];
+// Pridedame naują elementą į masyvo pabaigą
 numbers.push(6);
-console.log('pridedam', numbers);
-let istrintiPaskutini = numbers.pop();
-console.log('Po paskutinio elemento pašalinimo:', numbers, 'Pašalintas elementas:', istrintiPaskutini);
+console.log('Po pridejimo skaiciaus:', numbers);
+// Pašaliname paskutinį elementą iš masyvo
+let removedLast = numbers.pop();
+console.log('Po paskutinio skaiciaus pasalinimo:', numbers, 'Pasalintas paskutinis skaicius:', removedLast);

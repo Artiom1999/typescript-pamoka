@@ -16,13 +16,15 @@ console.log('Amzius:', metai);
 
 let numbers: number[] = [9, 2, 3, 4, 9];
 
+// Pridedame naują elementą į masyvo pabaigą
 numbers.push(6);
-console.log('pridedam', numbers);
+console.log('Po pridejimo skaiciaus:', numbers);
 
-let istrintiPaskutini = numbers.pop();
+// Pašaliname paskutinį elementą iš masyvo
+let removedLast = numbers.pop();
 console.log(
-  'Po paskutinio elemento pašalinimo:',
+  'Po paskutinio skaiciaus pasalinimo:',
   numbers,
-  'Pašalintas elementas:',
-  istrintiPaskutini
+  'Pasalintas paskutinis skaicius:',
+  removedLast
 );
